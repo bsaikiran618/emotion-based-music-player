@@ -11,8 +11,11 @@ Please make sure you have the following in your machine...
 Note: I have downloaded python using Anaconda.
 
 Python version: 3.6.5 (Try to download all python modules)(Important modules: glob, os, numpy, random, argparse, time)
-Eel version: 0.9.10 (download link: https://github.com/ChrisKnott/Eel)
+Eel version: 0.9.10 (download link: https://github.com/ChrisKnott/Eel) or run 'pip install eel' in terminal
 Opencv version: 3.4.3 (Full opencv module. Fisherface module is must)
+
+(Important) Run 'pip install opencv-contrib-python' in terminal to install the required modules.
+
 Chrome browser is needed (eel library is specifically designed for chrome)
 
 Download all the files in a folder. Open terminal in the same folder. 

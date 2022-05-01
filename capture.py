@@ -129,7 +129,10 @@ def getEmotion():
 #eel.start('main.html', options=web_app_options)
 #options={'host':'file', 'port': '//'}
 
-eel.start('main.html')#//WD_INNOVATIVE//main.html')
+eel.start('main.html',mode='my_portable_chromium',  # additional options to setup a portable chrome tab which is mandatory for eel.start()
+                        host='localhost', 
+                        port=27000, 
+                        block=True)#//WD_INNOVATIVE//main.html') 
 #, options)
 
 
